@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Response>
-  <Say language='es-ES' voice='Polly.Conchita'>
+  <Say language="es-ES" voice="Polly.Conchita">
     ¡Hola! Esta es una prueba de voz en español con Twilio. Gracias por llamar.
   </Say>
 </Response>
