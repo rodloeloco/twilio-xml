@@ -1,9 +1,6 @@
-const client = require('twilio')(accountSid, authToken);
-
-client.calls
-  .create({
-     url: 'https://tusitio.com/bienvenida.xml',
-     to: '+34XXXXXXXXX', // número destino (cliente)
-     from: '+353XXXXXXXXX' // tu número de Irlanda en Twilio
-   })
-  .then(call => console.log(call.sid));
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+  <Say language="es-ES" voice="Polly.Conchita">
+    ¡Hola! Esta es una prueba de voz en español con Twilio. Gracias por llamar.
+  </Say>
+</Response>
